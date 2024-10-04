@@ -15,7 +15,7 @@ spec:
         app: pipelines-vote-ui
     spec:
       containers:
-        - image: image-registry.openshift-image-registry.svc:5000/1st-test/vote-api:latest
+        - image: image-registry.openshift-image-registry.svc:5000/vote-ci/vote-api:latest
           imagePullPolicy: Always
           name: pipelines-vote-ui
           ports:
